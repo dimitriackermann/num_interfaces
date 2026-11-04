@@ -1,0 +1,10 @@
+# Goal: record topics (and services) into datasets/<name>_<distro>_<timestamp>/
+string name           # bag name prefix, default "bag"
+string[] topics       # empty = all topics and services
+float64 duration      # seconds; 0 = record until the goal is cancelled
+---
+bool success
+string bag_path
+string message
+---
+float64 elapsed

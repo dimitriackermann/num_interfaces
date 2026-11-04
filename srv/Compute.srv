@@ -1,0 +1,5 @@
+# Binary arithmetic operation; used by /add and /subtract.
+float64 a
+float64 b
+---
+float64 result

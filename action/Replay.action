@@ -1,0 +1,9 @@
+# Goal: replay a bag folder from datasets/
+string bag_name       # folder name inside datasets/
+float32 rate          # playback rate, 0 = 1.0
+bool loop
+---
+bool success
+string message
+---
+float64 elapsed
